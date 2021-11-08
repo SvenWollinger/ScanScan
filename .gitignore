@@ -1,0 +1,11 @@
+/bin/
+/ScanScan/
+/.classpath
+/.project
+/.idea/
+/out/
+/.gradle/
+/build/
+/release/*
+ScanScan.iml
+settings.gradle
