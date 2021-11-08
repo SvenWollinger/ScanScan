@@ -5,7 +5,7 @@ Tiny utility that "improves" the scanner.
 Really it only removes the need to do a next line after non-string inputs...
 
 ## How to use
-Import it as a library to your project and call it like "ScanScan.nextInt();"
+Import it as a library to your project or copy ![this file](https://github.com/SvenWollinger/ScanScan/blob/main/src/main/java/io/wollinger/ScanScan.java) into your project and call it like "ScanScan.nextInt();"
 
 
 License
