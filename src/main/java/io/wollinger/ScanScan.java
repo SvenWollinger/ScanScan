@@ -1,5 +1,6 @@
 package io.wollinger;
 
+import java.io.InputStream;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Scanner;
@@ -10,6 +11,10 @@ public class ScanScan {
     private static void ensureScanner() {
         if(scanner == null)
             scanner = new Scanner(System.in);
+    }
+
+    public static void setStream(InputStream inputStream) {
+        scanner = new Scanner(inputStream);
     }
 
     public static String nextLine() {
